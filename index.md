@@ -6,4 +6,4 @@
 - [海外华人充值游戏平台｜怎么选不踩坑的正规代充平台？](article1.html)
 - [海外第五人格储值划算渠道VS 官方直充差价多少？](article2.html)
 - [How to Recharge Chamet Diamonds Using Only Your User ID](chamet1.html)
-- [ZZZ 3.1 Global Update Guide + Safe Top-Up Tips](zzz-top-up.md)
+- [ZZZ 3.1 Global Update Guide + Safe Top-Up Tips](zzz-top-up.html)
