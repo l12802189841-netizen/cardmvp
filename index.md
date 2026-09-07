@@ -10,3 +10,4 @@
 - [海外充抖音别只盯着安全，平价好用的渠道分享](haiwaichongzhi.md)
 - [海外充值實用分享，這家靠譜平台值得收藏](haiwai-chongzhi.md)
 - [快手七夕活动来袭,高性价快币充值主力心仪主播冲榜](kuaishou-qixi.md)
+- [海外充值｜海外储值完整指南：海外华人数字平台储值怎么选才安全划算](chongzhi-guide.md)
