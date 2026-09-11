@@ -1,0 +1,30 @@
+name: Generate sitemap
+on:
+  push:
+    branches: [ main ] # 改成你的主分支，一般main或者master
+
+permissions:
+  contents: write
+jobs:
+  sitemap:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout repo
+        uses: actions/checkout@v4
+        with:
+          fetch-depth: 0 # 需要完整git历史读取lastmod
+
+      - name: Generate sitemap.xml
+        uses: guimauvedigital/generate-sitemap@v1
+        with:
+          base_url: "https://topuply.github.io/antnum/" # ⚠️改成你的网站域名
+          file_extensions: "md,html"
+          sitemap_path: "./sitemap.xml"
+
+      - name: Commit & Push sitemap
+        run: |
+          git config --global user.name "github-actions[bot]"
+          git config --global user.email "github-actions[bot]@users.noreply.github.com"
+          git add sitemap.xml
+          git commit -m "Auto update sitemap.xml" || echo "No changes to sitemap"
+          git push
